@@ -44,3 +44,8 @@
 serial_communication_node.cpp
 将car/serial/port参数值赋给car_port变量，没有参数时使用默认变量
 `nh.param<std::string>(“car/serial/port”, car_port, “/dev/ttyUSB0”);`
+### 2. Custom message
+常用类型：float32 float64 float64[]
+string Header int8 int16 uint32
+
+
