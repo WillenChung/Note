@@ -1,5 +1,6 @@
 ## ROS
 ### launch file
+```xml
 //使用roslaunch car car.launch
 //roslaunch 包名 launch文件名
 //car.launch
@@ -39,7 +40,7 @@
   </node>
 	
 </launch>
-
+```
 
 serial_communication_node.cpp
 //将car/serial/port参数值赋给car_port变量，没有参数时使用默认变量
