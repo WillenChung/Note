@@ -5,8 +5,7 @@
 //roslaunch 包名 launch文件名
 //car.launch
 <launch>
-	//注释
-	<!--  -->
+	<!-- 注释 -->
 
 	<!-- 命令行roslaunch car car.launch serial_port:=”/dev/ttyUSB0” -->
 	<!-- default可以覆盖，value不能覆盖 -->
