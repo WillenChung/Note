@@ -1,9 +1,8 @@
 ## ROS
 ### 1. launch file
+roslaunch car car.launch
+roslaunch 包名 launch文件名
 ```xml
-//使用roslaunch car car.launch
-//roslaunch 包名 launch文件名
-//car.launch
 <launch>
 	<!-- 注释 -->
 
