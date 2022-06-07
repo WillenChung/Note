@@ -1,5 +1,5 @@
 ## ROS
-### launch file
+### 1. launch file
 ```xml
 //使用roslaunch car car.launch
 //roslaunch 包名 launch文件名
@@ -36,13 +36,11 @@
 		<param name=”car/serial/port” value=”$(arg serial_port)”/>
 		<param name=”car/serial/baudrate” value=”$(arg serial_baudrate)”/>
 		<!-- 导入.yaml文件 ns要加一层域名 -->
-    	<rosparam file=”$(find turtlebot3_navigation)/param/costmap_common_params_$(arg model).yaml” command=”load” ns=”global_costmap”/>
+    		<rosparam file=”$(find turtlebot3_navigation)/param/costmap_common_params_$(arg model).yaml” command=”load” ns=”global_costmap”/>
   	</node>	
 </launch>
 ```
 
 serial_communication_node.cpp
-//将car/serial/port参数值赋给car_port变量，没有参数时使用默认变量
-`
-nh.param<std::string>(“car/serial/port”, car_port, “/dev/ttyUSB0”);
-`
+将car/serial/port参数值赋给car_port变量，没有参数时使用默认变量
+`nh.param<std::string>(“car/serial/port”, car_port, “/dev/ttyUSB0”);`
