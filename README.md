@@ -56,7 +56,7 @@ int main(){
  </div> 
  
 ***
-[超链接](https://space.bilibili.com/16543387)  
-![图片](https://github.com/WillenChung/learning_temps/blob/master/%E5%9B%9B%E5%A7%91%E5%A8%98.JPG)  
+[B站主页](https://space.bilibili.com/16543387)  
+![四姑娘山](https://github.com/WillenChung/learning_temps/blob/master/%E5%9B%9B%E5%A7%91%E5%A8%98.JPG)  
 
 
