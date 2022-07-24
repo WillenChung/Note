@@ -1,6 +1,10 @@
 # 一级标题
 ## 二级标题
-### 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+<p align="center">居中文本</p>
+
 ***
 *斜体* _斜体_
 **粗体** __粗体__ 
@@ -23,18 +27,36 @@ int main(){
 ***
 表格
 
-| Option | Description |
-| ------ | ----------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
+| 时间 | 运动项目 |
+| --- | --- |
+| 2022年07月23日 | 游泳 |
+| 2022年07月24日 | 游泳 |
 
-***
-超链接
-[百度](https://baidu.com)
+表格左对齐
 
+| 时间 | 运动项目 |
+| :--- | :--- |
+| 2022年07月23日 | 游泳 |
+| 2022年07月24日 | 游泳 |
+
+表格中间对齐
+
+| 时间 | 运动项目 |
+| :---: | :---: |
+| 2022年07月23日 | 游泳 |
+| 2022年07月24日 | 游泳 |
+
+表格右对齐
+
+| 时间 | 运动项目 |
+| ---: | ---: |
+| 2022年07月23日 | 游泳 |
+| 2022年07月24日 | 游泳 |
 ***
-图片
-![cat](https://octodex.github.com/images/minion.png "The cat")
+
+[超链接](https://baidu.com)
+***
+
+![图片](https://octodex.github.com/images/minion.png "The cat")
 
 
